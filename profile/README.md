@@ -14,7 +14,8 @@
   <a href="https://pulzr.net">pulzr.net</a> ·
   <a href="https://app.pulzr.net">Console</a> ·
   <a href="https://app.pulzr.net/docs">Docs</a> ·
-  <a href="https://pulzar-net.github.io/PulzrOS/">PulzrOS</a>
+  <a href="https://oss.pulzr.net/">Open source</a> ·
+  <a href="https://oss.pulzr.net/PulzrOS/">PulzrOS</a>
 </p>
 
 ---
@@ -22,12 +23,13 @@
 We build the gateway OS, the radio stacks and the tools that sit under Pulzr in
 the open. Everything here is maintained by Pulzar and usable on its own,
 with or without the Pulzr platform.
+Every project and its docs are listed at **[oss.pulzr.net](https://oss.pulzr.net/)**.
 
 ### Gateway
 
 | | |
 |---|---|
-| [**PulzrOS**](https://github.com/pulzar-net/PulzrOS) | The gateway OS: OpenWrt with LoRaWAN, radio detection, add-ons and over-the-air updates. [Docs](https://pulzar-net.github.io/PulzrOS/) |
+| [**PulzrOS**](https://github.com/pulzar-net/PulzrOS) | The gateway OS: OpenWrt with LoRaWAN, radio detection, add-ons and over-the-air updates. [Docs](https://oss.pulzr.net/PulzrOS/) |
 | [**pulzr-edge**](https://github.com/pulzar-net/pulzr-edge) | The edge daemon: one process per radio or bus, store-and-forward, one protocol to the platform. |
 
 ### Radio stacks
@@ -36,16 +38,16 @@ Host stacks in Rust, each with a standalone bridge to MQTT and Home Assistant.
 
 | | |
 |---|---|
-| [**zigbee-bridge**](https://github.com/pulzar-net/zigbee-bridge) | Zigbee coordinator stack: Silicon Labs EZSP, TI ZNP and ConBee; backups, OTA, mesh mapping. [Docs](https://pulzar-net.github.io/zigbee-bridge/) |
-| [**zwave-bridge**](https://github.com/pulzar-net/zwave-bridge) | Z-Wave controller stack: Serial API, S0 and S2, SmartStart, Long Range, NVM backup. [Docs](https://pulzar-net.github.io/zwave-bridge/) |
-| [**bluetooth-bridge**](https://github.com/pulzar-net/bluetooth-bridge) | Bluetooth host stack over raw HCI: scanning, advertising, GATT, pairing, Mesh. [Docs](https://pulzar-net.github.io/bluetooth-bridge/) |
-| [**matter-bridge**](https://github.com/pulzar-net/matter-bridge) | Matter controller on rs-matter: commissioning over IP, Bluetooth and Thread. [Docs](https://pulzar-net.github.io/matter-bridge/) |
+| [**zigbee-bridge**](https://github.com/pulzar-net/zigbee-bridge) | Zigbee coordinator stack: Silicon Labs EZSP, TI ZNP and ConBee; backups, OTA, mesh mapping. [Docs](https://oss.pulzr.net/zigbee-bridge/) |
+| [**zwave-bridge**](https://github.com/pulzar-net/zwave-bridge) | Z-Wave controller stack: Serial API, S0 and S2, SmartStart, Long Range, NVM backup. [Docs](https://oss.pulzr.net/zwave-bridge/) |
+| [**bluetooth-bridge**](https://github.com/pulzar-net/bluetooth-bridge) | Bluetooth host stack over raw HCI: scanning, advertising, GATT, pairing, Mesh. [Docs](https://oss.pulzr.net/bluetooth-bridge/) |
+| [**matter-bridge**](https://github.com/pulzar-net/matter-bridge) | Matter controller on rs-matter: commissioning over IP, Bluetooth and Thread. [Docs](https://oss.pulzr.net/matter-bridge/) |
 
 ### Device libraries
 
 | | |
 |---|---|
-| [**zigbee-codec-catalog**](https://github.com/pulzar-net/zigbee-codec-catalog) | Every zigbee-herdsman-converters definition as a standalone codec, one release per upstream version. |
+| [**zigbee-codec-catalog**](https://github.com/pulzar-net/zigbee-codec-catalog) | Every zigbee-herdsman-converters definition as a standalone codec, one release per upstream version. [Docs](https://oss.pulzr.net/zigbee-codec-catalog/) |
 | [**zwave-config-catalog**](https://github.com/pulzar-net/zwave-config-catalog) | Z-Wave JS's device configuration lookup as one script for any JavaScript engine. |
 | [**codec-test**](https://github.com/pulzar-net/codec-test) | Run LoRaWAN payload codecs the way ChirpStack and The Things Stack do, against their test vectors. |
 | [**oui**](https://github.com/pulzar-net/oui) | MAC address vendor lookup as small static files, rebuilt weekly from the IEEE registries. |
@@ -55,9 +57,9 @@ Host stacks in Rust, each with a standalone bridge to MQTT and Home Assistant.
 | | |
 |---|---|
 | [**pulzr-sdk**](https://github.com/pulzar-net/pulzr-sdk) | The Python and TypeScript SDKs for the Pulzr API. |
-| [**pulzr-package-sdk**](https://github.com/pulzar-net/pulzr-package-sdk) | Build gateway packages and carrier drivers as sandboxed WebAssembly: the ABI, a Rust SDK and the `pulzr-pkg` CLI. |
+| [**pulzr-package-sdk**](https://github.com/pulzar-net/pulzr-package-sdk) | Build gateway packages and carrier drivers as sandboxed WebAssembly: the ABI, a Rust SDK and the `pulzr-pkg` CLI. [Docs](https://oss.pulzr.net/pulzr-package-sdk/) |
 | [**perses-pulzr-datasource**](https://github.com/pulzar-net/perses-pulzr-datasource) | Pulzr data in Perses dashboards, with a family of panel plugins beside it. |
-| [**docs-theme**](https://github.com/pulzar-net/docs-theme) | The Starlight theme and starter every project here uses for its docs. |
+| [**docs-theme**](https://github.com/pulzar-net/docs-theme) | The Starlight theme and starter every project here uses for its docs. [Docs](https://oss.pulzr.net/docs-theme/) |
 
 ### LoRaWAN
 
