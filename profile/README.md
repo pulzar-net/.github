@@ -21,7 +21,7 @@
 ---
 
 We build the gateway OS, the radio stacks and the tools that sit under Pulzr in
-the open. Everything here is maintained by Pulzar and usable on its own,
+the open. Everything here is maintained by Pulzr and usable on its own,
 with or without the Pulzr platform.
 Every project and its docs are listed at **[oss.pulzr.net](https://oss.pulzr.net/)**.
 
