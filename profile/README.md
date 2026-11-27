@@ -60,6 +60,7 @@ Host stacks in Rust, each with a standalone bridge to MQTT and Home Assistant.
 | [**pulzr-package-sdk**](https://github.com/pulzar-net/pulzr-package-sdk) | Build gateway packages and carrier drivers as sandboxed WebAssembly: the ABI, a Rust SDK and the `pulzr-pkg` CLI. [Docs](https://oss.pulzr.net/pulzr-package-sdk/) |
 | [**connectivity-1nce**](https://github.com/pulzar-net/connectivity-1nce) | 1NCE IoT SIMs as a carrier driver, a sandboxed package on the package SDK: SIM inventory, status, usage, top-ups and APN profiles. |
 | [**perses-pulzr-datasource**](https://github.com/pulzar-net/perses-pulzr-datasource) | Pulzr data in Perses dashboards, with a family of panel plugins beside it. |
+| [**pulzr-ui**](https://github.com/pulzar-net/pulzr-ui) | The design language of the Pulzr consoles: tokens, status, radio icons, device images and the ports diagram. |
 | [**docs-theme**](https://github.com/pulzar-net/docs-theme) | The Starlight theme and starter every project here uses for its docs. [Docs](https://oss.pulzr.net/docs-theme/) |
 
 ### LoRaWAN
